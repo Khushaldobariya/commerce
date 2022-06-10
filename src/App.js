@@ -7,7 +7,9 @@ import Home from "./Container/Home/Home";
 import Service from "./Container/Service/Service";
 import Gallery from "./Container/Gallery/Gallery";
 import Contact from "./Container/Contact/Contact";
-import Footer from "/Component/Footer/Footer";
+import Footer from "./Component/Footer/Footer";
+
+
 
 function App() {
 
@@ -23,6 +25,7 @@ function App() {
         <Route exact path={"/Contact"} component={Contact} />
       </Switch>
       <Footer />
+ 
     </>
   )
 }

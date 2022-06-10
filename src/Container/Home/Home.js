@@ -117,301 +117,116 @@ function Home(props) {
             </div>
             {/* Video Modal End */}
             {/* Services Start */}
-            <div className="container-fluid py-5">
-                <div className="container py-5">
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <h1 className="section-title position-relative mb-5">Best Services We Provide For Our Clients</h1>
-                        </div>
-                        <div className="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0" />
+            <div className="container py-5">
+                <div className="row justify-content-center">
+                    <div className="col-lg-6">
+                        <h1 className="section-title position-relative text-center mb-5">Best Prices We Offer For Ice Cream Lovers</h1>
                     </div>
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="owl-carousel service-carousel">
-                                <div className="service-item">
-                                    <div className="service-img mx-auto">
-                                        <img className="rounded-circle w-100 h-100 bg-light p-3" src="img/service-1.jpg" style={{ objectFit: 'cover' }} />
-                                    </div>
-                                    <div className="position-relative text-center bg-light rounded p-4 pb-5" style={{ marginTop: '-75px' }}>
-                                        <h5 className="font-weight-semi-bold mt-5 mb-3 pt-5">Quality Maintain</h5>
-                                        <p>Dolor nonumy sed eos sed lorem diam amet eos magna. Dolor kasd lorem duo stet kasd justo</p>
-                                        <a href className="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
-                                    </div>
-                                </div>
-                                <div className="service-item">
-                                    <div className="service-img mx-auto">
-                                        <img className="rounded-circle w-100 h-100 bg-light p-3" src="img/service-2.jpg" style={{ objectFit: 'cover' }} />
-                                    </div>
-                                    <div className="position-relative text-center bg-light rounded p-4 pb-5" style={{ marginTop: '-75px' }}>
-                                        <h5 className="font-weight-semi-bold mt-5 mb-3 pt-5">Individual Approach</h5>
-                                        <p>Dolor nonumy sed eos sed lorem diam amet eos magna. Dolor kasd lorem duo stet kasd justo</p>
-                                        <a href className="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
-                                    </div>
-                                </div>
-                                <div className="service-item">
-                                    <div className="service-img mx-auto">
-                                        <img className="rounded-circle w-100 h-100 bg-light p-3" src="img/service-3.jpg" style={{ objectFit: 'cover' }} />
-                                    </div>
-                                    <div className="position-relative text-center bg-light rounded p-4 pb-5" style={{ marginTop: '-75px' }}>
-                                        <h5 className="font-weight-semi-bold mt-5 mb-3 pt-5">Celebration Ice Cream</h5>
-                                        <p>Dolor nonumy sed eos sed lorem diam amet eos magna. Dolor kasd lorem duo stet kasd justo</p>
-                                        <a href className="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
-                                    </div>
-                                </div>
-                                <div className="service-item">
-                                    <div className="service-img mx-auto">
-                                        <img className="rounded-circle w-100 h-100 bg-light p-3" src="img/service-4.jpg" style={{ objectFit: 'cover' }} />
-                                    </div>
-                                    <div className="position-relative text-center bg-light rounded p-4 pb-5" style={{ marginTop: '-75px' }}>
-                                        <h5 className="font-weight-semi-bold mt-5 mb-3 pt-5">Delivery To Any Point</h5>
-                                        <p>Dolor nonumy sed eos sed lorem diam amet eos magna. Dolor kasd lorem duo stet kasd justo</p>
-                                        <a href className="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
-                                    </div>
-                                </div>
+                </div>
+                <div className="row">
+                    <div className="col-lg-3 col-md-6 mb-4 pb-2">
+                        <div className="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                            <div className="bg-primary mt-n5 py-3" style={{ width: 80 }}>
+                                <h4 className="font-weight-bold text-white mb-0">$99</h4>
                             </div>
+                            <div className="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style={{ width: 150, height: 150 }}>
+                                <img className="rounded-circle w-100 h-100" src="img/product-1.jpg" style={{ objectFit: 'cover' }} />
+                            </div>
+                            <h5 className="font-weight-bold mb-4">Vanilla Ice Cream</h5>
+                            <a href className="btn btn-sm btn-secondary">Order Now</a>
                         </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 mb-4 pb-2">
+                        <div className="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                            <div className="bg-primary mt-n5 py-3" style={{ width: 80 }}>
+                                <h4 className="font-weight-bold text-white mb-0">$99</h4>
+                            </div>
+                            <div className="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style={{ width: 150, height: 150 }}>
+                                <img className="rounded-circle w-100 h-100" src="img/product-2.jpg" style={{ objectFit: 'cover' }} />
+                            </div>
+                            <h5 className="font-weight-bold mb-4">Vanilla Ice Cream</h5>
+                            <a href className="btn btn-sm btn-secondary">Order Now</a>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 mb-4 pb-2">
+                        <div className="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                            <div className="bg-primary mt-n5 py-3" style={{ width: 80 }}>
+                                <h4 className="font-weight-bold text-white mb-0">$99</h4>
+                            </div>
+                            <div className="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style={{ width: 150, height: 150 }}>
+                                <img className="rounded-circle w-100 h-100" src="img/product-3.jpg" style={{ objectFit: 'cover' }} />
+                            </div>
+                            <h5 className="font-weight-bold mb-4">Vanilla Ice Cream</h5>
+                            <a href className="btn btn-sm btn-secondary">Order Now</a>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 mb-4 pb-2">
+                        <div className="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                            <div className="bg-primary mt-n5 py-3" style={{ width: 80 }}>
+                                <h4 className="font-weight-bold text-white mb-0">$99</h4>
+                            </div>
+                            <div className="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style={{ width: 150, height: 150 }}>
+                                <img className="rounded-circle w-100 h-100" src="img/product-4.jpg" style={{ objectFit: 'cover' }} />
+                            </div>
+                            <h5 className="font-weight-bold mb-4">Vanilla Ice Cream</h5>
+                            <a href className="btn btn-sm btn-secondary">Order Now</a>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 mb-4 pb-2">
+                        <div className="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                            <div className="bg-primary mt-n5 py-3" style={{ width: 80 }}>
+                                <h4 className="font-weight-bold text-white mb-0">$99</h4>
+                            </div>
+                            <div className="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style={{ width: 150, height: 150 }}>
+                                <img className="rounded-circle w-100 h-100" src="img/product-5.jpg" style={{ objectFit: 'cover' }} />
+                            </div>
+                            <h5 className="font-weight-bold mb-4">Vanilla Ice Cream</h5>
+                            <a href className="btn btn-sm btn-secondary">Order Now</a>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 mb-4 pb-2">
+                        <div className="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                            <div className="bg-primary mt-n5 py-3" style={{ width: 80 }}>
+                                <h4 className="font-weight-bold text-white mb-0">$99</h4>
+                            </div>
+                            <div className="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style={{ width: 150, height: 150 }}>
+                                <img className="rounded-circle w-100 h-100" src="img/product-1.jpg" style={{ objectFit: 'cover' }} />
+                            </div>
+                            <h5 className="font-weight-bold mb-4">Vanilla Ice Cream</h5>
+                            <a href className="btn btn-sm btn-secondary">Order Now</a>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 mb-4 pb-2">
+                        <div className="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                            <div className="bg-primary mt-n5 py-3" style={{ width: 80 }}>
+                                <h4 className="font-weight-bold text-white mb-0">$99</h4>
+                            </div>
+                            <div className="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style={{ width: 150, height: 150 }}>
+                                <img className="rounded-circle w-100 h-100" src="img/product-2.jpg" style={{ objectFit: 'cover' }} />
+                            </div>
+                            <h5 className="font-weight-bold mb-4">Vanilla Ice Cream</h5>
+                            <a href className="btn btn-sm btn-secondary">Order Now</a>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 mb-4 pb-2">
+                        <div className="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                            <div className="bg-primary mt-n5 py-3" style={{ width: 80 }}>
+                                <h4 className="font-weight-bold text-white mb-0">$99</h4>
+                            </div>
+                            <div className="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style={{ width: 150, height: 150 }}>
+                                <img className="rounded-circle w-100 h-100" src="img/product-3.jpg" style={{ objectFit: 'cover' }} />
+                            </div>
+                            <h5 className="font-weight-bold mb-4">Vanilla Ice Cream</h5>
+                            <a href className="btn btn-sm btn-secondary">Order Now</a>
+                        </div>
+                    </div>
+                    <div className="col-12 text-center">
+                        <a href className="btn btn-primary py-3 px-5">Load More</a>
                     </div>
                 </div>
             </div>
             {/* Services End */}
-            {/* Portfolio Start */}
-            <div className="container-fluid my-5 py-5 px-0">
-                <div className="row justify-content-center m-0">
-                    <div className="col-lg-5">
-                        <h1 className="section-title position-relative text-center mb-5">Delicious Ice Cream Made From Our Very Own Organic Milk</h1>
-                    </div>
-                </div>
-                <div className="row m-0 portfolio-container">
-                    <div className="col-lg-4 col-md-6 p-0 portfolio-item">
-                        <div className="position-relative overflow-hidden">
-                            <img className="img-fluid w-100" src="img/portfolio-1.jpg" alt />
-                            <a className="portfolio-btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                                <i className="fa fa-plus text-primary" style={{ fontSize: 60 }} />
-                            </a>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 p-0 portfolio-item">
-                        <div className="position-relative overflow-hidden">
-                            <img className="img-fluid w-100" src="img/portfolio-2.jpg" alt />
-                            <a className="portfolio-btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                                <i className="fa fa-plus text-primary" style={{ fontSize: 60 }} />
-                            </a>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 p-0 portfolio-item">
-                        <div className="position-relative overflow-hidden">
-                            <img className="img-fluid w-100" src="img/portfolio-3.jpg" alt />
-                            <a className="portfolio-btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                                <i className="fa fa-plus text-primary" style={{ fontSize: 60 }} />
-                            </a>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 p-0 portfolio-item">
-                        <div className="position-relative overflow-hidden">
-                            <img className="img-fluid w-100" src="img/portfolio-4.jpg" alt />
-                            <a className="portfolio-btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                                <i className="fa fa-plus text-primary" style={{ fontSize: 60 }} />
-                            </a>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 p-0 portfolio-item">
-                        <div className="position-relative overflow-hidden">
-                            <img className="img-fluid w-100" src="img/portfolio-5.jpg" alt />
-                            <a className="portfolio-btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">
-                                <i className="fa fa-plus text-primary" style={{ fontSize: 60 }} />
-                            </a>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 p-0 portfolio-item">
-                        <div className="position-relative overflow-hidden">
-                            <img className="img-fluid w-100" src="img/portfolio-6.jpg" alt />
-                            <a className="portfolio-btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">
-                                <i className="fa fa-plus text-primary" style={{ fontSize: 60 }} />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/* Portfolio End */}
-            {/* Products Start */}
-            <div className="container-fluid py-5">
-                <div className="container py-5">
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <h1 className="section-title position-relative mb-5">Best Prices We Offer For Ice Cream Lovers</h1>
-                        </div>
-                        <div className="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0" />
-                    </div>
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="owl-carousel product-carousel">
-                                <div className="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                                    <div className="bg-primary mt-n5 py-3" style={{ width: 80 }}>
-                                        <h4 className="font-weight-bold text-white mb-0">$99</h4>
-                                    </div>
-                                    <div className="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style={{ width: 150, height: 150 }}>
-                                        <img className="rounded-circle w-100 h-100" src="img/product-1.jpg" style={{ objectFit: 'cover' }} />
-                                    </div>
-                                    <h5 className="font-weight-bold mb-4">Vanilla Ice Cream</h5>
-                                    <a href className="btn btn-sm btn-secondary">Order Now</a>
-                                </div>
-                                <div className="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                                    <div className="bg-primary mt-n5 py-3" style={{ width: 80 }}>
-                                        <h4 className="font-weight-bold text-white mb-0">$99</h4>
-                                    </div>
-                                    <div className="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style={{ width: 150, height: 150 }}>
-                                        <img className="rounded-circle w-100 h-100" src="img/product-2.jpg" style={{ objectFit: 'cover' }} />
-                                    </div>
-                                    <h5 className="font-weight-bold mb-4">Vanilla Ice Cream</h5>
-                                    <a href className="btn btn-sm btn-secondary">Order Now</a>
-                                </div>
-                                <div className="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                                    <div className="bg-primary mt-n5 py-3" style={{ width: 80 }}>
-                                        <h4 className="font-weight-bold text-white mb-0">$99</h4>
-                                    </div>
-                                    <div className="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style={{ width: 150, height: 150 }}>
-                                        <img className="rounded-circle w-100 h-100" src="img/product-3.jpg" style={{ objectFit: 'cover' }} />
-                                    </div>
-                                    <h5 className="font-weight-bold mb-4">Vanilla Ice Cream</h5>
-                                    <a href className="btn btn-sm btn-secondary">Order Now</a>
-                                </div>
-                                <div className="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                                    <div className="bg-primary mt-n5 py-3" style={{ width: 80 }}>
-                                        <h4 className="font-weight-bold text-white mb-0">$99</h4>
-                                    </div>
-                                    <div className="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style={{ width: 150, height: 150 }}>
-                                        <img className="rounded-circle w-100 h-100" src="img/product-4.jpg" style={{ objectFit: 'cover' }} />
-                                    </div>
-                                    <h5 className="font-weight-bold mb-4">Vanilla Ice Cream</h5>
-                                    <a href className="btn btn-sm btn-secondary">Order Now</a>
-                                </div>
-                                <div className="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                                    <div className="bg-primary mt-n5 py-3" style={{ width: 80 }}>
-                                        <h4 className="font-weight-bold text-white mb-0">$99</h4>
-                                    </div>
-                                    <div className="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style={{ width: 150, height: 150 }}>
-                                        <img className="rounded-circle w-100 h-100" src="img/product-5.jpg" style={{ objectFit: 'cover' }} />
-                                    </div>
-                                    <h5 className="font-weight-bold mb-4">Vanilla Ice Cream</h5>
-                                    <a href className="btn btn-sm btn-secondary">Order Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/* Products End */}
-            {/* Team Start */}
-            <div className="container-fluid py-5">
-                <div className="container py-5">
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <h1 className="section-title position-relative mb-5">Experienced &amp; Most Famous Ice Cream Chefs</h1>
-                        </div>
-                        <div className="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0" />
-                    </div>
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="owl-carousel team-carousel">
-                                <div className="team-item">
-                                    <div className="team-img mx-auto">
-                                        <img className="rounded-circle w-100 h-100" src="img/team-1.jpg" style={{ objectFit: 'cover' }} />
-                                    </div>
-                                    <div className="position-relative text-center bg-light rounded px-4 py-5" style={{ marginTop: '-100px' }}>
-                                        <h3 className="font-weight-bold mt-5 mb-3 pt-5">Full Name</h3>
-                                        <h6 className="text-uppercase text-muted mb-4">Designation</h6>
-                                        <div className="d-flex justify-content-center pt-1">
-                                            <a className="btn btn-outline-secondary btn-social mr-2" href="#"><i className="fab fa-twitter" /></a>
-                                            <a className="btn btn-outline-secondary btn-social mr-2" href="#"><i className="fab fa-facebook-f" /></a>
-                                            <a className="btn btn-outline-secondary btn-social mr-2" href="#"><i className="fab fa-linkedin-in" /></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="team-item">
-                                    <div className="team-img mx-auto">
-                                        <img className="rounded-circle w-100 h-100" src="img/team-2.jpg" style={{ objectFit: 'cover' }} />
-                                    </div>
-                                    <div className="position-relative text-center bg-light rounded px-4 py-5" style={{ marginTop: '-100px' }}>
-                                        <h3 className="font-weight-bold mt-5 mb-3 pt-5">Full Name</h3>
-                                        <h6 className="text-uppercase text-muted mb-4">Designation</h6>
-                                        <div className="d-flex justify-content-center pt-1">
-                                            <a className="btn btn-outline-secondary btn-social mr-2" href="#"><i className="fab fa-twitter" /></a>
-                                            <a className="btn btn-outline-secondary btn-social mr-2" href="#"><i className="fab fa-facebook-f" /></a>
-                                            <a className="btn btn-outline-secondary btn-social mr-2" href="#"><i className="fab fa-linkedin-in" /></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="team-item">
-                                    <div className="team-img mx-auto">
-                                        <img className="rounded-circle w-100 h-100" src="img/team-3.jpg" style={{ objectFit: 'cover' }} />
-                                    </div>
-                                    <div className="position-relative text-center bg-light rounded px-4 py-5" style={{ marginTop: '-100px' }}>
-                                        <h3 className="font-weight-bold mt-5 mb-3 pt-5">Full Name</h3>
-                                        <h6 className="text-uppercase text-muted mb-4">Designation</h6>
-                                        <div className="d-flex justify-content-center pt-1">
-                                            <a className="btn btn-outline-secondary btn-social mr-2" href="#"><i className="fab fa-twitter" /></a>
-                                            <a className="btn btn-outline-secondary btn-social mr-2" href="#"><i className="fab fa-facebook-f" /></a>
-                                            <a className="btn btn-outline-secondary btn-social mr-2" href="#"><i className="fab fa-linkedin-in" /></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="team-item">
-                                    <div className="team-img mx-auto">
-                                        <img className="rounded-circle w-100 h-100" src="img/team-4.jpg" style={{ objectFit: 'cover' }} />
-                                    </div>
-                                    <div className="position-relative text-center bg-light rounded px-4 py-5" style={{ marginTop: '-100px' }}>
-                                        <h3 className="font-weight-bold mt-5 mb-3 pt-5">Full Name</h3>
-                                        <h6 className="text-uppercase text-muted mb-4">Designation</h6>
-                                        <div className="d-flex justify-content-center pt-1">
-                                            <a className="btn btn-outline-secondary btn-social mr-2" href="#"><i className="fab fa-twitter" /></a>
-                                            <a className="btn btn-outline-secondary btn-social mr-2" href="#"><i className="fab fa-facebook-f" /></a>
-                                            <a className="btn btn-outline-secondary btn-social mr-2" href="#"><i className="fab fa-linkedin-in" /></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/* Team End */}
-            {/* Testimonial Start */}
-            <div className="container-fluid py-5">
-                <div className="container py-5">
-                    <div className="row justify-content-center">
-                        <div className="col-lg-6">
-                            <h1 className="section-title position-relative text-center mb-5">Clients Say About Our Famous Ice Cream</h1>
-                        </div>
-                    </div>
-                    <div className="row justify-content-center">
-                        <div className="col-lg-8">
-                            <div className="owl-carousel testimonial-carousel">
-                                <div className="text-center">
-                                    <i className="fa fa-3x fa-quote-left text-primary mb-4" />
-                                    <h4 className="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
-                                    <img className="img-fluid mx-auto mb-3" src="img/testimonial-1.jpg" alt />
-                                    <h5 className="font-weight-bold m-0">Client Name</h5>
-                                    <span>Profession</span>
-                                </div>
-                                <div className="text-center">
-                                    <i className="fa fa-3x fa-quote-left text-primary mb-4" />
-                                    <h4 className="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
-                                    <img className="img-fluid mx-auto mb-3" src="img/testimonial-2.jpg" alt />
-                                    <h5 className="font-weight-bold m-0">Client Name</h5>
-                                    <span>Profession</span>
-                                </div>
-                                <div className="text-center">
-                                    <i className="fa fa-3x fa-quote-left text-primary mb-4" />
-                                    <h4 className="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
-                                    <img className="img-fluid mx-auto mb-3" src="img/testimonial-3.jpg" alt />
-                                    <h5 className="font-weight-bold m-0">Client Name</h5>
-                                    <span>Profession</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          
         </div>
 
     );

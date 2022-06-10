@@ -100,7 +100,7 @@ function Service(props) {
                 </div>
             </div>
         </div>
-
+    )
 }
 
 export default Service;
