@@ -7,6 +7,7 @@ import Home from "./Container/Home/Home";
 import Service from "./Container/Service/Service";
 import Gallery from "./Container/Gallery/Gallery";
 import Contact from "./Container/Contact/Contact";
+import Signup from "./Container/Signup/Signup";
 import Footer from "./Component/Footer/Footer";
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route exact path={"/Service"} component={Service} />
         <Route exact path={"/Gallery"} component={Gallery} />
         <Route exact path={"/Contact"} component={Contact} />
+        <Route exact path={"/Signup"} component={Signup} />
       </Switch>
       <Footer />
  

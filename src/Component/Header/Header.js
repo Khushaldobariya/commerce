@@ -61,6 +61,8 @@ function Header(props) {
                                 <NavLink to={"/Service"} className="nav-item nav-link">Service</NavLink>
                                 <NavLink to={"/Gallery"} className="nav-item nav-link">Gallery</NavLink>
                                 <NavLink to={"/Contact"} className="nav-item nav-link">Contact</NavLink>
+                                <NavLink to={"/Signup"} className="nav-item nav-link">Signup</NavLink>
+                                
                             </div>
                         </div>
                     </nav>
